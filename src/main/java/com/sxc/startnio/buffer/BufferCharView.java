@@ -8,7 +8,7 @@ import java.nio.CharBuffer;
 public class BufferCharView {
 	public static void main(String[] argv) throws Exception {
 		ByteBuffer byteBuffer = ByteBuffer.allocate(7).order(
-				ByteOrder.BIG_ENDIAN);
+				ByteOrder.LITTLE_ENDIAN);
 		CharBuffer charBuffer = byteBuffer.asCharBuffer(); // Load the
 															// ByteBuffer with
 															// some bytes
