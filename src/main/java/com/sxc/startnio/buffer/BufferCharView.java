@@ -12,13 +12,16 @@ public class BufferCharView {
 		CharBuffer charBuffer = byteBuffer.asCharBuffer(); // Load the
 															// ByteBuffer with
 															// some bytes
-		byteBuffer.put(0, (byte) 0);
-		byteBuffer.put(1, (byte) 'H');
-		byteBuffer.put(2, (byte) 0);
-		byteBuffer.put(3, (byte) 'i');
-		byteBuffer.put(4, (byte) 0);
-		byteBuffer.put(5, (byte) '!');
-		byteBuffer.put(6, (byte) 0);
+//		byteBuffer.put(0, (byte) 0);
+//		byteBuffer.put(1, (byte) 'H');
+//		byteBuffer.put(2, (byte) 0);
+//		byteBuffer.put(3, (byte) 'i');
+//		byteBuffer.put(4, (byte) 0);
+//		byteBuffer.put(5, (byte) '!');
+//		byteBuffer.put(6, (byte) 0);
+		charBuffer.put(0, 'a');
+		charBuffer.put(1, 'b');
+		charBuffer.put(2, 'c');
 		println(byteBuffer);
 		println(charBuffer);
 	}
