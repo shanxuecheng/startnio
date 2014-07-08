@@ -24,6 +24,11 @@ public class BufferCharView {
 		charBuffer.put(2, 'c');
 		println(byteBuffer);
 		println(charBuffer);
+		
+		System.out.println(byteBuffer.get());
+		
+		println(byteBuffer);
+		println(charBuffer);
 	}
 
 	// Print info about a buffer
