@@ -20,7 +20,8 @@ public class ChannelCopy {
 		ReadableByteChannel source = Channels.newChannel(System.in);
 		WritableByteChannel dest = Channels.newChannel(System.out);
 		channelCopy1(source, dest);
-		// alternatively, call channelCopy2 (source, dest);
+//		alternatively, call channelCopy2 (source, dest);
+//		channelCopy2(source, dest);
 		source.close();
 		dest.close();
 	}
