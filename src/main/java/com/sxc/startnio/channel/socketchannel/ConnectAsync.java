@@ -7,7 +7,7 @@ public class ConnectAsync {
 
 	public static void main(String[] argv) throws Exception {
 		String host = "localhost";
-		int port = 80;
+		int port = 1234;
 		if (argv.length == 2) {
 			host = argv[0];
 			port = Integer.parseInt(argv[1]);
